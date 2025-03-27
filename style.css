@@ -1,0 +1,52 @@
+body {
+    background: white;
+}
+
+
+.title {
+    color: yellow;
+    margin: auto;
+    border: 10px solid darkblue;
+    padding: 1px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: grey;
+}
+
+.smallBox {
+    display: flex;
+    color: white;
+    width: 100%;
+}
+
+.sideText {
+    border: 10px solid black;
+    width: 5%;
+    background-color: gray;
+    margin-left: auto;
+    flex-grow: 0.2;
+}
+
+
+.lebronOrganizer {
+    color: black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    width: 50%;
+}
+
+.lebronCage {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.lebronCage, img {
+    height: 300px;
+}
+
+img {
+    width: 300px;
+}
+
+.pad {
+    padding-top: 10%;
+}
